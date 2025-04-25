@@ -1,4 +1,4 @@
-package com.jetbrains.sample.app
+package xyz.malefic.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -20,7 +20,7 @@ fun Screen() {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            BasicText("Hello, basic World!")
+            BasicText("Hello, World!")
         }
     }
 }
